@@ -6,6 +6,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -13,16 +15,18 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.net.URL;
+
 public class LoginActivity extends AppCompatActivity {
 
     private UserDBHelper dbHelper;
+    private WebView webView;
 
     @Override
     @SuppressLint("MissingInflatedId")
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
-
         dbHelper = new UserDBHelper(this);
 
         // 初始化手机号、用户名、密码输入框
@@ -37,7 +41,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String phone = phoneEditText.getText().toString();
                 String password = passwordEditText.getText().toString();
-
+                
                 if (validateLoginInput(phone, password)) {
                     // 模拟登录成功，获取用户名
                     String username = getUsernameByPhone(phone);

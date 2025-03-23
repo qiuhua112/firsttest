@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.core:core:1.9.0@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../Androidgradle/gradle-repository/caches/8.12/transforms/07822a3245b2067ac8d7a15d7e7c98c3/transformed/core-1.9.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../Androidgradle/gradle-repository/caches/8.12/transforms/07822a3245b2067ac8d7a15d7e7c98c3/transformed/core-1.9.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Androidgradle/gradle-repository/caches/8.12/transforms/07822a3245b2067ac8d7a15d7e7c98c3/transformed/core-1.9.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../Androidgradle/gradle-repository/caches/8.12/transforms/07822a3245b2067ac8d7a15d7e7c98c3/transformed/core-1.9.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Androidgradle/gradle-repository/caches/modules-2/files-2.1/androidx.core/core/1.9.0/a272ed8ec68c43f8c049a8e77b4f662cc4290fa2/core-1.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
