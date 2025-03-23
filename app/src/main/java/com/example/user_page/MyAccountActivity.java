@@ -31,7 +31,7 @@ public class MyAccountActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // 跳转到注册界面
-                Intent intent = new Intent(MyAccountActivity.this, LoginActivity.class);
+                Intent intent = new Intent(MyAccountActivity.this, RegisterActivity.class);
                 intent.putExtra("isRegister", true);
                 startActivity(intent);
             }
